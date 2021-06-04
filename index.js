@@ -92,7 +92,7 @@ async function start(pincode){
         if(messageSent == false){
             start(pincode);
         }
-    },1000);
+    },30000);
 }
 
 
