@@ -95,8 +95,8 @@ async function start(pincode){
     },30000);
 }
 
-
-
-start("302002");
+let myArgs = process.argv.slice(2);
+console.log('myArgs: ', myArgs);
+start(myArgs[0]);
 
 
